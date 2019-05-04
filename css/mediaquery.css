@@ -1,0 +1,370 @@
+/*--  index.html  -- @media query --*/
+
+/*--------------------From 0px To 500px ---- Mobile---------------------------*/
+@media (min-width: 0px) and (max-width: 500px){
+
+/*-- Header --*/
+
+header {
+
+    background-attachment: scroll;
+}
+
+.logo img{
+    width: 200px;
+    padding-top: 20px;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.menu ul li{
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+/*-- hero --*/
+.hero {
+    margin-bottom: 65px;
+}
+.hero h1 {
+    font-size: 22px;
+    padding: 8px 14px;
+    margin-top: 40px;
+}
+.hero p {
+    font-size: 12px;
+    margin-top: 13px;
+    line-height: 17px;
+    margin-bottom: 0px;
+}
+.hero button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+/*----section-----*/
+
+.sec-white {
+    padding: 30px 0 100px 0;
+}
+.sec-white-text h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+.sec-white-text p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 74px;
+    line-height: 20px;
+}
+
+.boxs8 {
+    width: 270px;
+    top: 0px;
+    left: 15px;
+}
+.cars3 {
+    width: 150px;
+    top: 6px;
+    left: 120px;
+}
+
+/*-- Section-black --*/
+
+.sec-black {
+    padding: 65px 0 115px 0;
+}
+
+.sec-black-text h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+.sec-black-text p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 85px;
+    line-height: 20px;
+}
+.sec-black-text button {
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+.cars5 {
+    width: 240px;
+    top: 33px;
+    left: 20px;
+}
+
+/*-- Footer --*/
+
+footer {
+    padding: 20px 0;
+}
+.footer-text {
+    font-size: 11px;
+}
+
+
+
+}
+
+/*--------------------From 501px To 767px ---- Tablet---------------------------*/
+@media (min-width: 501px) and (max-width: 767px){
+
+/*-- Header --*/
+
+header {
+
+	background-attachment: scroll;
+}
+
+.logo img{
+    width: 200px;
+    padding-top: 20px;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+}
+.menu ul{
+	list-style: none;
+    padding: 0;
+	margin: 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.menu ul li{
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+/*-- hero --*/
+.hero {
+	margin-bottom: 65px;
+}
+.hero h1 {
+    font-size: 22px;
+    padding: 8px 14px;
+    margin-top: 40px;
+}
+.hero p {
+    font-size: 12px;
+    margin-top: 13px;
+    line-height: 17px;
+    margin-bottom: 0px;
+}
+.hero button {
+	margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+/*----section-----*/
+
+.sec-white {
+    padding: 30px 0 150px 0;
+}
+.sec-white-text h1 {
+	font-size: 30px;
+    line-height: 30px;
+}
+.sec-white-text p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 74px;
+    line-height: 20px;
+}
+
+.boxs8 {
+    width: 400px;
+    top: 0px;
+    left: 60px;
+}
+.cars3 {
+    width: 220px;
+    top: 10px;
+    left: 215px;
+}
+
+/*-- Section-black --*/
+
+.sec-black {
+	padding: 65px 0 115px 0;
+}
+
+.sec-black-text h1 {
+	font-size: 30px;
+    line-height: 30px;
+}
+.sec-black-text p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 85px;
+    line-height: 20px;
+}
+.sec-black-text button {
+	margin-top: 15px;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+.cars5 {
+    width: 430px;
+    top: 5px;
+    left: 35px;
+}
+
+/*-- Footer --*/
+
+footer {
+    padding: 20px 0;
+}
+.footer-text {
+    font-size: 11px;
+}
+
+
+
+}
+
+
+
+
+
+/*--------------------From 768px To 1199px ---- Laptop---------------------------*/
+@media (min-width: 768px) and (max-width: 1199px){
+
+
+/*-- Header --*/
+
+header {
+	background-attachment: scroll;
+}
+
+.logo img{
+    width: 300px;
+    padding-top: 25px;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+}
+.menu ul{
+	list-style: none;
+    padding: 0;
+	margin: 0;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.menu ul li{
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+/*-- hero --*/
+.hero {
+	margin-bottom: 65px;
+}
+.hero h1 {
+    font-size: 22px;
+    padding: 10px 15px;
+    margin-top: 45px;
+}
+.hero p {
+    font-size: 12px;
+    margin-top: 13px;
+    line-height: 17px;
+    margin-bottom: 0px;
+}
+.hero button {
+	margin-top: 25px;
+    padding: 12px 40px;
+    font-size: 15px;
+}
+
+/*----section-----*/
+
+.sec-white {
+    padding: 30px 0 55px 0;
+}
+.sec-white-text h1 {
+	font-size: 30px;
+    line-height: 30px;
+}
+.sec-white-text p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 74px;
+    line-height: 20px;
+}
+
+.boxs8 {
+    width: 425px;
+    top: 97px;
+    left: -180px;
+}
+.cars3 {
+    width: 250px;
+    top: 105px;
+    left: -17px;
+}
+
+/*-- Section-black --*/
+
+.sec-black {
+	padding: 65px 0 55px 0;
+}
+
+.sec-black-text h1 {
+	font-size: 30px;
+    line-height: 30px;
+}
+.sec-black-text p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 85px;
+    line-height: 20px;
+}
+.sec-black-text button {
+	margin-top: 15px;
+    padding: 15px 40px;
+    font-size: 14px;
+}
+.cars5 {
+    width: 475px;
+    top: 160px;
+    left: -245px;
+}
+
+
+/*-- Footer --*/
+
+footer {
+    padding: 20px 0;
+}
+.footer-text {
+    font-size: 11px;
+}
+
+
+
+
+
+
+}
+
+
+/*--------------------From 1200px To All ---- Big Screens---------------------------*/
+@media (min-width: 1200px) {
+
+}

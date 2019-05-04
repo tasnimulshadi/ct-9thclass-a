@@ -1,0 +1,208 @@
+/*--  index.html  --  Stylesheet  --*/
+
+/*-- Header --*/
+header {
+	width: 100%;
+	float: left;
+    background: url(../img/banner-home.png)no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.logo {
+
+}
+.logo img{
+    width: 400px;
+    padding-top: 30px;
+}
+
+.menu {
+
+}
+.menu ul{
+	list-style: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.menu ul li{
+	display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-family: arial;
+    margin: 0 25px;
+    font-size: 14px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+/*-- hero --*/
+
+.hero {
+	font-family: arial;
+	margin-bottom: 200px;
+}
+.hero h1 {
+	color: white;
+    font-size: 48px;
+    background-color: #00000069;
+    padding: 12px 30px;
+    margin-top: 100px;
+}
+.hero p {
+	color: white;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 21px;
+    margin-bottom: 36px;
+}
+.hero span {
+	border-bottom: 1px solid white;
+    padding: 0px 20px;
+}
+.hero button {
+	margin-top: 40px;
+    padding: 16px 78px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+
+
+/*-- Section --*/
+section {
+	width: 100%;
+	float: left;
+}
+
+/*-- Section-white --*/
+
+.sec-white {
+	width: 100%;
+    float: left;
+    font-family: arial;
+    padding: 100px 0;
+    background-color: #eaeaea;
+}
+
+.sec-white-text {
+
+}
+.sec-white-text h1 {
+	color: #28282e;
+    font-size: 48px;
+    line-height: 65px;
+    font-weight: bold;
+}
+.sec-white-text span {
+	border-bottom: 1px solid black;
+    padding: 0px 14px;
+}
+.sec-white-text p {
+    color: #888888;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 325px;
+    line-height: 21px;
+}
+
+.sec-white-position {
+	position: relative;
+}
+
+.boxs8 {
+	position: absolute;
+    width: 930px;
+    top: 20px;
+    left: -380px;
+}
+.boxs8 img {
+	width: 100%;
+	display: block;
+}
+
+.cars3 {
+    position: absolute;
+    width: 415px;
+    top: 70px;
+    left: -24px;
+}
+.cars3 img {
+	width: 100%;
+	display: block;
+}
+
+/*-- Section-black --*/
+
+.sec-black {
+	width: 100%;
+    float: left;
+    font-family: arial;
+    padding: 100px 0;
+    background-color: #28282e;
+}
+
+.sec-black-text {
+
+}
+.sec-black-text h1 {
+	color: white;
+    font-size: 48px;
+    line-height: 65px;
+    font-weight: bold;
+}
+.sec-black-text span {
+	border-bottom: 1px solid white;
+    padding: 0px 14px;
+}
+.sec-black-text p {
+    color: white;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 335px;
+    line-height: 21px;
+}
+.sec-black-text button {
+	margin-top: 40px;
+    padding: 16px 40px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.sec-black-position {
+	position: relative;
+}
+.cars5 {
+	position: absolute;
+    width: 715px;
+    top: 100px;
+    left: -275px;
+}
+.cars5 img {
+	width: 100%;
+	display: block;
+}
+
+/*-- Footer --*/
+
+footer {
+	width: 100%;
+	float: left;
+	background-color: #ef4035;
+	font-family: arial;
+    padding: 35px 0;
+}
+.footer-text {
+	color: white;
+    font-size: 13px;
+    text-align: center;
+}
